@@ -1,2 +1,2 @@
 # codename-analiza
-CS738 Advanced Compiler Optimizations
+CS738 Project
