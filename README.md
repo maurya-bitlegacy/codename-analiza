@@ -1,2 +1,2 @@
-# codename-analyza
+# codename-analiza
 CS738 Advanced Compiler Optimizations
