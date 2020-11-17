@@ -1,9 +1,9 @@
 #ifndef _SIGN_H_
-#define _SIGN_H_
+#define _SIGN_H_ // If _SIGN_H_ is not defined, define _SIGN_H_
 
 #include <string>
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/StringRef.h"
+#include "llvm/ADT/DenseMap.h" // https://stackoverflow.com/questions/43191216/differences-similarities-between-llvmdensemap-and-stdmap
+#include "llvm/ADT/StringRef.h" // Constant String Reference Wrapper https://opensource.apple.com/source/lldb/lldb-76/llvm/include/llvm/ADT/StringRef.h.auto.html
 
 #define RETURN "return"
 #define BRANCH "branch"
