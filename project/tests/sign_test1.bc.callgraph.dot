@@ -1,0 +1,11 @@
+digraph "Call graph: sign_test1.bc" {
+	label="Call graph: sign_test1.bc";
+
+	Node0x7f855fd10000 [shape=record,label="{g}"];
+	Node0x7f855fd10000 -> Node0x7f855fd10090;
+	Node0x7f855fd10090 [shape=record,label="{f}"];
+	Node0x7f855fd10090 -> Node0x7f855fd10000;
+	Node0x7f855fd10170 [shape=record,label="{main}"];
+	Node0x7f855fd10170 -> Node0x7f855fd10090;
+	Node0x7f855fd10170 -> Node0x7f855fd10000;
+}
