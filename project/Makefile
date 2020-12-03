@@ -1,5 +1,5 @@
 LLVM_CONFIG = llvm-config
-OBJECTS = main.o context.o context_transition_table.o forward_inter_procedural_analysis.o sign_analysis.o inter_procedural_analysis.o sign.o
+OBJECTS = main.o Context.o ContextTransitionTable.o ForwardInterProceduralAnalysis.o SignAnalysis.Sign.o InterProceduralAnalysis.o SignAnalysis.o
 CXX = clang++
 
 CXXFLAGS = -c -Iinclude/ `$(LLVM_CONFIG) --cxxflags --system-libs` -g -Wall -fPIC -fno-rtti
