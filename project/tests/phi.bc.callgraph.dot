@@ -1,5 +1,0 @@
-digraph "Call graph: tests/phi.bc" {
-	label="Call graph: tests/phi.bc";
-
-	Node0x7f8355428d80 [shape=record,label="{main}"];
-}
