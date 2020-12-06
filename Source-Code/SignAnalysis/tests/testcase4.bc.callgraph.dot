@@ -1,0 +1,10 @@
+digraph "Call graph: tests/testcase4.bc" {
+	label="Call graph: tests/testcase4.bc";
+
+	Node0x5637a0e55a70 [shape=record,label="{f2}"];
+	Node0x5637a0e55b20 [shape=record,label="{f1}"];
+	Node0x5637a0e55b20 -> Node0x5637a0e55a70;
+	Node0x5637a0e881b0 [shape=record,label="{main}"];
+	Node0x5637a0e881b0 -> Node0x5637a0e55b20;
+	Node0x5637a0e881b0 -> Node0x5637a0e55a70;
+}
