@@ -1,11 +1,6 @@
 #include "Context.h"
 
 template<class M, class N, class A>
-Context<M, N, A>::Context(): analysed(false), is_null(true) {
-	// id = ++count;
-}
-
-template<class M, class N, class A>
 Context<M, N, A>::Context(M method, bool reverse): method(method), analysed(false), is_null(false), reverse(reverse) {
 	id = ++count;
 }
